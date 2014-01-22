@@ -1,0 +1,16 @@
+/*These work well for vertical navigation links */
+.list-group {
+	list-style-type: none;
+}
+
+.list-group-item::before {
+	content: "";
+}
+
+.list-group-item {
+	display: block;
+}
+
+.list-group-item-inline {
+	display: inline-block;
+}

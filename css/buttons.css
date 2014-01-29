@@ -1,0 +1,20 @@
+/*because this is targeted three times it has priority over and other class with one line, so in order to overright it you need to make them equal*/
+.btn,
+.btn:link,
+.btn:visited {
+	display: inline-block;
+	padding: 0.75em 1em;
+	background-color: #793284;
+	background-image: linear-gradient(to bottom, #793284, #571062);
+	border-radius: 6px;
+	box-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+	color: white;
+	font-weight: bold;
+}
+
+.btn-alt,
+.btn-alt:link,
+.btn-alt:visited {
+	background-image: linear-gradient(to bottom, #5d8432, #3b6210); 
+	background-color: #5d8432;
+}

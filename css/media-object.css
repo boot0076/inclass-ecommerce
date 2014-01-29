@@ -1,0 +1,24 @@
+/* left hand side image*/
+.media {
+	overflow: hidden;
+}
+
+.media-img {
+	float: left;
+	/*right*/ margin: 0 10px 0 0 ;
+}
+
+.media-img-reversed {
+	float: right; /*allows text to wrap around images*/
+	/*top-right-bottom-left*/ margin-left: 0 0 0 10px; /* gives space to the area between text and image*/
+}
+
+.media-img-stacked {
+	float: none;
+	margin: 0;
+}
+
+.media-body {
+	/*this makes it no longer wrap around floated items */
+	overflow: hidden;
+}

@@ -1,0 +1,27 @@
+---
+layout: default
+title: Dinosaurs
+---
+
+<div class="grid">
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+<h1>Dinosaurs!</h1>
+</div>
+
+<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+<p>All that dinos that ever existed.</p>
+</div>
+</div>
+
+<ul>
+	{% for dino in site.pages %}
+		<!-- How to filter different sections for pages -->
+		{% if dino.category == 'dinosaurs' %}
+		<li>
+			<!-- spits out images from the top of each section's page-->
+			<img src="{{site.baseurl}}/images/{{dino.image}}" alt="">
+			{{dino.name}}
+		</li>
+		{% endif %}
+	{% endfor %}
+</ul>

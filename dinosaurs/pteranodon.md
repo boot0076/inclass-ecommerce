@@ -1,4 +1,5 @@
 ---
+layout: dinosaurs
 category: dinosaurs
 name: Pteranodon
 time_period: Jurassic

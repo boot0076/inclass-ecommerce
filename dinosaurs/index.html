@@ -18,9 +18,11 @@ title: Dinosaurs
 		<!-- How to filter different sections for pages -->
 		{% if dino.category == 'dinosaurs' %}
 		<li>
-			<!-- spits out images from the top of each section's page-->
-			<img src="{{site.baseurl}}/images/{{dino.image}}" alt="">
-			{{dino.name}}
+			<a href="{{site.baseurl}}{{dino.url}}">
+				<!-- spits out images from the top of each section's page-->
+				<img src="{{site.baseurl}}/images/{{dino.image}}" alt="">
+				{{dino.name}}
+			</a>
 		</li>
 		{% endif %}
 	{% endfor %}

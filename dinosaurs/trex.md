@@ -1,4 +1,5 @@
 ---
+layout: dinosaurs
 category: dinosaurs
 name: Tyrannosaurus
 time_period: Late Cretaceous
